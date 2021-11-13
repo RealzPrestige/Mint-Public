@@ -2,7 +2,6 @@ package mint.managers;
 
 import mint.Mint;
 import mint.modules.core.FontChanger;
-import mint.modules.miscellaneous.SignExploit;
 import mint.newgui.font.CustomFont;
 import mint.utils.Timer;
 import net.minecraft.client.Minecraft;
@@ -26,7 +25,6 @@ public class TextManager {
 
     public void init() {
         if (doneLoad) {
-            SignExploit.nullCheck();
             doneLoad = false;
         }
         assert Mint.moduleManager != null;

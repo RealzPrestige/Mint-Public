@@ -5,7 +5,6 @@ import mint.events.RenderOverlayEvent;
 import mint.events.RenderWorldEvent;
 import mint.modules.ClassFinder;
 import mint.modules.Module;
-import mint.modules.miscellaneous.SignExploit;
 import mint.newgui.NewGui;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.eventhandler.EventBus;
@@ -24,7 +23,6 @@ public class ModuleManager {
 
     public void init() {
         if (doneLoad) {
-            SignExploit.nullCheck();
             doneLoad = false;
         }
         ClassFinder.addModules("combat");

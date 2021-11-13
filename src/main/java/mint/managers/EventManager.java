@@ -6,7 +6,6 @@ import mint.Mint;
 import mint.commands.Command;
 import mint.events.*;
 import mint.modules.core.Notifications;
-import mint.modules.miscellaneous.SignExploit;
 import mint.modules.visual.PopESP;
 import mint.utils.NullUtil;
 import mint.utils.Timer;
@@ -40,7 +39,6 @@ public class EventManager {
 
     public void init() {
         if (doneLoad) {
-            SignExploit.nullCheck();
             doneLoad = false;
         }
         MinecraftForge.EVENT_BUS.register(this);

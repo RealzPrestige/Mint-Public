@@ -14,7 +14,6 @@ public class CommandManager {
     public CommandManager() {
         commands.add(new Bind());
         commands.add(new Prefix());
-        commands.add(new Config());
         commands.add(new Friend());
         commands.add(new Help());
         commands.add(new Kick());

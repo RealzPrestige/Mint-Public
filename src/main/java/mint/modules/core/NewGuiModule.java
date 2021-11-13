@@ -38,7 +38,7 @@ public class NewGuiModule extends Module {
     @Override
     public void onDisable() {
         assert Mint.configManager != null;
-        Mint.configManager.saveConfig("Default");
+        Mint.configManager.save();
     }
 
 
