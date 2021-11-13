@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "mint.mixins",
+  "refmap": "mixins.mint.refmap.json",
+  "mixins": [
+    "IEntityRenderer",
+    "MixinEntityLivingBase",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinFontRenderer",
+    "MixinRenderItem",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinPlayerControllerMP",
+    "MixinRenderArmor",
+    "MixinRenderLivingBase",
+    "MixinRenderEnderCrystal",
+    "MixinRenderPlayer",
+    "MixinGuiPlayerTabOverlay",
+    "MixinWorld"
+  ]
+}
