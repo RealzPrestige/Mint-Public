@@ -10,7 +10,6 @@ no support
 
 ## Note
 * Removed Hwid system.
-* Yo gerald take some time to study how to not fall for baits. YOu get baited by the most simple things, cmon we know you can learn it!!
 
 ## Gettng Started
 * Run setupDecompWorkspace
